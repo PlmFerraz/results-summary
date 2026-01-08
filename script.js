@@ -5,6 +5,7 @@ const botao = document.querySelector("button");
 botao.onclick = function () {
   const span = document.querySelector("span");
   span.innerText = media;
+  botao.blur();
 };
 
 function buscarDados() {
